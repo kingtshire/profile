@@ -1,293 +1,339 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
+        
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-        href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
-        rel="stylesheet"
-        />
-        <link rel="stylesheet" href="styles.css" />
-        <title>CODSOFT Landing Page</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PORTFOLIO PROFILE</title>
+        <link rel="stylesheet" href="style.css">
+        
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     </head>
+
+                                <!--- HOME SECTION BEGINS --->
+    <header class="header">
+
+        <a href="./name-meaning.png" class="logo"> TSHIRELETSO . </a>
+            
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <nav class="navbar">
+            <a href="#home" class="active">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#portfolio">PORTFOLIO</a>
+            <a href="#contact">REACH OUT</a>
+
+            <span class="active-nav"></span>
+        </nav>
+
+    </header>
 
     <body>
 
-        <nav>
-            
-            <div class="logo"> SoftWay <span>.</span></div>
+        <section class="home" id="home">
 
-            <div class="menu"><i class="ri-menu-3-line" id="menu-icon"></i></div>
-            
-            <ul class="nav-links">
-                <li class="link"><a href="#Home"> Home </a></li>
-                <li class="link"><a href="#Destinations"> Destinations </a></li>
-                <li class="link"><a href="#Pricing"> Pricing </a></li>
-                <li class="link"><a href="#Reviews "> Reviews </a></li>
-            </ul>
-            <button class="btn" type="button"> Contact Us </button>
-        </nav>
+            <div class="home-content">
+                <h1>Hi, I'm <span>Tshireletso P. Tshielo</span></h1>
 
-                                        <!-- HOME SECTION -->
-        <header>
+                <div class="text-animate">
 
-        <div class="section-container header-container" id="Home">
+                    <h3>I'm a <span class="typed-text"></span></h3>
 
-            <div class="header-image">
-            <img src="./about-image.jpg" alt="header" />
-            <img src="./header-1.jpg" alt="header" />
-            </div>
+                </div>
 
-            <div class="header-content">
-            <div>
-                <p class="sub-header"> Book Now </p>
-                <h1>The CodSoft 😊<br /> travelling agency</h1>
-                <p class="section-subtitle">
-                    We are the best travel
-                agency and we are providing the best travel services for our
-                clients.
-                Make your travel more enjoyable with us. 
+                <p>Welcome to my digital space, where code meets creativity, and innovation comes to life.<br>
+                    I have a passion for creating visually stunning and user-friendly projects.<br>
+                    Feel free to wander through my projects and see how technology and imagination intertwine.
                 </p>
 
-                <div class="action-btns">
-                <button class="btn" type="button"> Plan a Trip </button>
-
-                <div class="story">
-                    <div class="video__image">
-                    <img src="./about-image (2).jpg" alt="story" />
-                    <span><i class="ri-play-fill"></i></span>
-                    </div>
-
-                    <span> Watch our story </span>
-                </div>
+                <div class="btn-box">
+                    <a href="tel:+27682098621" class="btn" target="_blank" rel="noopener"> CONTACT ME </a>
                 </div>
 
-            </div>
-            </div>
-        </div>
+                <div class="social-media">
 
-        </header>
+                    <a href="https://www.linkedin.com/in/tshireletsop-tshielo" title="linkedIn" target="_blank" rel="noopener"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://www.github.com/kingtshire" title="My work" target="_blank" rel="noopener"><i class='bx bxl-github'></i></a>
+                    <a href="https://wa.me/27845904205" title="whatsapp" target="_blank" rel="noopener"><i class="bx bxl-whatsapp"></i></a>
 
-                                        <!-- DESTINATIONS SECTION-->
-
-        <section class="section-container destination-container" id="Destinations">
-
-        <div class="section-header">
-
-            <div>
-            <h2 class="section-title"> Explore our top travel destinations </h2>
-            <p class="section-subtitle">
-                Explore your suitable and dream places around the world. Here you
-                can find your right destination.
-            </p>
-            </div>
-
-            <div class="destination-nav">
-            <span><i class="ri-arrow-left-s-line"></i></span>
-            <span><i class="ri-arrow-right-s-line"></i></span>
-            </div>
-
-        </div>
-
-        <div class="destination-grid">
-
-            <div class="destination-card">
-            <img src="./destination-2.jpg" alt="destination" />
-            <div class="destination-details">
-                <p class="destination-title"> Machu Picchu</p>
-                <p class="destination-subtitle"> Peru </p>
-            </div>
-            </div>
-
-            <div class="destination-card">
-            <img src="./destination-1.jpg" alt="destination" />
-            <div class="destination-details">
-                <p class="destination-title"> Banff </p>
-                <p class="destination-subtitle"> Canada </p>
-            </div>
-            </div>
-
-            <div class="destination-card">
-            <img src="./destination-4.jpg" alt="destination" />
-            <div class="destination-details">
-                <p class="destination-title"> Zhangjiajie </p>
-                <p class="destination-subtitle"> China </p>
-            </div>
-            </div>
-
-            <div class="destination-card">
-            <img src="./destination-3.jpg" alt="destination" />
-            <div class="destination-details">
-                <p class="destination-title"> Lauterbrunnen </p>
-                <p class="destination-subtitle"> Switzerland </p>
-            </div>
-            </div>
-
-        </div>
-        </section>
-
-                                                <!-- TRIPS SECTION -->
-        <section class="trip" id="Pricing">
-
-            <div class="section-container trip-container">
-
-
-                <h2 class="section-title">Best trip packages</h2>
-                <p class="section-subtitle">
-                Explore your suitable and dream places around the world. Here you can
-                find your right destination.
-                </p>
-
-
-                <div class="trip--grid">
-
-
-                    <div class="trip-card">
-                        <img src="./trip-1.jpg" alt="trip" />
-                        <div class="trip-details">
-
-                            <p> Pretoria, Argentina and Canada </p>
-                            <div class="rating"><i class="ri-star-fill"></i> 4.2</div>
-                            <div class="booking-price">
-                                <div class="price"><span>From</span> $300 </div>
-                                <button class="book-now" type="button"> Book Now </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="trip-card">
-                        <img src="./trip-2.jpg" alt="trip" />
-                        <div class="trip-details">
-                            <p> Soshanguve, Germany </p>
-                            <div class="rating"><i class="ri-star-fill"></i> 4.5</div>
-                            <div class="booking-price">
-                                <div class="price"><span> From </span> $450 </div>
-                                <button class="book-now" type="button"> Book Now </button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="trip-card">
-                        <img src="./trip-3.jpg" alt="trip" />
-
-                        <div class="trip-details">
-                            <p> The Dolomites, Italy </p>
-                            <div class="rating"><i class="ri-star-fill"></i> 4.7 </div>
-                            <div class="booking-price">
-                                <div class="price"><span> From </span> $400 </div>
-                                <button class="book-now" type="button"> Book Now </button>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="view-all">
-                    <button class="btn" type="button"> View All </button>
                 </div>
 
             </div>
 
         </section>
 
-                                                <!-- GALLERY SECTION -->
+                                <!--- HOME SECTION ENDS --->
 
-        <section class="gallery" id="Reviews">
 
-        <div class="section-container gallery-container">
+                                <!--- ABOUT SECTION STARTS --->
 
-            <div class="image-gallery">
-            <div class="gallery-col">
-                <img src="./gallery-1.jpg" alt="gallery" />
+        <section class="about" id="about">
+
+            <div class="about-img">
+
+                <img src="./about-image.jpg" alt="">
+
             </div>
 
-            <div class="gallery-col">
-                <img src="./gallery-2.jpg" alt="gallery" />
-                <img src="./gallery-3.jpg" alt="gallery" />
-            </div>
-            </div>
+            <div class="about-content">
 
-            <div class="gallery-content">
-            <div>
-                <h2 class="section-title">
-                This is the trip gallery that will inspire you!
-                </h2>
-                <p class="section-subtitle">
-                Explore your suitable dream places around the world. Find your right destination.
+                <h2 class="heading">ABOUT <span>ENGINEER</span></h2>
+
+                <p>I am a self-taught software engineer on a journey fueled by curiosity and a passion for crafting digital solutions.
+                    My path into the world of coding began as a personal exploration,
+                    where every line of code became a stepping stone toward mastering the art of software development.
+                    My learning process has been a dynamic blend of hands-on projects, online resources, and a relentless pursuit of knowledge.
+                    Armed with resilience and a knack for problem-solving.
+                    I've embraced challenges as opportunities to refine my skills and broaden my understanding of diverse technologies.
+                    In this ever-evolving tech landscape, I thrive on staying abreast of the latest trends and technologies.
+                    From coding in the late hours of the night to debugging through the complexities of algorithms,
+                    my journey as a self-taught software engineer is a testament to the belief that dedication and passion can unlock boundless possibilities in the digital realm.
+                    Join me as I continue to explore, create, and innovate in the dynamic world of software engineering.
+                    Together, let's turn lines of code into transformative solutions.
                 </p>
-                <button class="btn" type="button"> View All </button>
             </div>
-
-            </div>
-        </div>
 
         </section>
 
-                                        <!-- SUBSCRIBE SECTION -->
-        <section class="subscribe">
+                                    <!--- ABOUT SECTION ENDS --->
 
-        <div class="section-container subscribe-container">
 
-            <div class="subscribe-content">
-            <h2 class="section-title"> Subscribe to get special prizes </h2>
-            <p class="section-subtitle">
-                Explore your suitable and dream places around the world. Here you
-                can find your right destination.
-            </p>
+                                    <!--- SKILLS SECTION STARTS --->
+
+        <section class="skills" id="skills">
+            <h2 class="heading">MY <span>SKILLS</span></h2>
+
+            <div class="skills-row">
+                <div class="skills-column">
+                    <h3 class="title">TECHNICAL SKILLS</h3>
+
+                    <div class="skills-content">
+
+                        <div class="progress">
+                            <h3><i style="color: yellow" class='bx bxl-javascript'></i>JAVASCRIPT <span>77%</span></h3>
+                                
+                            <div class="bar"><span class="javascript"></span></div>
+                        </div>
+
+
+                        <div class="progress">
+                            <h3><i style="color: orangered" class='bx bxl-postgresql'></i>SQL <span>86%</span></h3>
+                                
+                            <div class="bar"><span class="sql"></span></div>
+                        </div>
+                            
+                        <div class="progress">
+                            <h3><i style="color: blue" class='bx bxl-tailwind-css'></i>TAILWIND CSS <span>89%</span></h3>
+                                
+                            <div class="bar"><span class="css"></span></div>
+                        </div>
+
+
+
+                        <div class="progress">
+                            <h3><i style="color: violet" class='bx bxl-react' ></i>REACT.JS<span>60%</span></h3>
+                                
+                            <div class="bar"><span class="react"></span></div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div class="skills-column">
+                    <h3 class="title">PROFESSIONAL SKILLS</h3>
+
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3><i class='bx bxl-product-hunt' ></i>PROBLEM SOLVING <span>84%</span></h3>
+                                
+                            <div class="bar"><span class="problem-solving"></span></div>
+                        </div>
+                            
+                        <div class="progress">
+                            <h3><i class='bx bxl-github' ></i>PROGRAMMING PROFICIENCY <span>76%</span></h3>
+                                
+                            <div class="bar"><span class="git"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3><i class='bx bx-code-alt' ></i>SOFTWARE DEVELOPMENT <span>67%</span></h3>
+                                
+                            <div class="bar"><span class="software-dev"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3><i class='bx bx-signal-5' ></i>COMMUNICATION & COLLABORATION <span>94%</span></h3>
+                                
+                            <div class="bar"><span class="web-dev"></span></div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
 
-            <div class="subscribe-form">
+        </section>
+                                        <!--- SKILLS SECTION ENDS --->
+
+
+                                        <!--- PORTFOLIO SECTION BEGINS -->
+
+        <section class="portfolio" id="portfolio">
+
+            <h2 class="heading">PORTFOLIO <span>PROFILE</span></h2>
+
+            <div class="portfolio-gallery">
+
                 
-            <form>
-                <input type="email" placeholder="Your email here" />
-                <button class="btn" type="submit"> Send </button>
-            </form>
-            </div>
+                <div class="port-box">
+                    <img src="./crud.jpg" alt="">
+                
+                    <div class="port-content">
+                        <h4>Software Dev</h4>
+                        <p>
+                            Employee Directory app. Allows users to perform CRUD operations on employee records.
+                        </p>
+                        <a href="https://kingtshire.github.io/crud/" target="_blank" rel="noopener" title="Employee Directory" ><i class="bx bx-link-external"></i></a>
+                    </div>
 
-        </div>
+                </div>
+
+                <div class="port-box">
+                    <img src="./health-care.jpg" alt="">
+                
+                    <div class="port-content">
+                        <h4>Web Design</h4>
+                        <p>
+                            This is a design of a responsive hospital website.
+                        </p>
+                        <a href="https://kingtshire.github.io/hospital.design/" target="_blank" rel="noopener" title="Hospital Website" ><i class="bx bx-link-external"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="port-box">
+                    <img src="./ECOMM.jpg" alt="">
+                
+                    <div class="port-content">
+                        <h4>Web Dev</h4>
+                        <p>
+                            Provides users with smooth shopping experience and intuitive cart functionality.
+                        </p>
+                        <a href="https://kingtshire.github.io/ecommerce/" target="_blank" rel="noopener" title="Ecommerce Website"><i class="bx bx-link-external"></i></a>
+                    </div>
+
+                </div>
+
+                
+                <div class="port-box">
+                    <img src="./calc.png" alt="">
+                
+                    <div class="port-content">
+                        <h4>Web App</h4>
+                        <p>
+                            It allows users to perform arithmetic operations.
+                        </p>
+                        <a href="https://kingtshire.github.io/js-calculator/" target="_blank" rel="noopener" title="JS-Calculator" ><i class="bx bx-link-external"></i></a>
+                    </div>
+
+                </div>
+
+
+                <div class="port-box">
+                    <img src="./land.png" alt="">
+                
+                    <div class="port-content">
+                        <h4>Web Design</h4>
+                        <p>
+                            This is a simple landing page, a traveling agency providing the best travel services for clients
+                        </p>
+                        <a href="https://kingtshire.github.io/CODSOFT/" target="_blank" rel="noopener" title="Landing Page" ><i class="bx bx-link-external"></i></a>
+                    </div>
+
+                </div>
+
+                <div class="port-box">
+                    <img src="./port-pro.png" alt="">
+                
+                    <div class="port-content">
+                        <h4>Javascript Port</h4>
+                        <p>
+                            This is the main portfolio profile.
+                        </p>
+                        <a href="https://kingtshire.github.io/profile/" target="_blank" rel="noopener" title="My Profile" ><i class="bx bx-link-external"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
 
         </section>
 
+
+                                        <!--- PORTFOLIO SECTION ENDS  -->
+
+
+                                        <!--- CONTACTS SECTION BEGINS -->
+
+        <section class="contact" id="contact">
+            <h2 class="heading">CONTACT <span>ME</span></h2>
+        
+            <form action="mailto:tshielo01@gmail.com" method="post">
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="text"  placeholder="Full Name" required>
+                        <span class="focus"></span>
+                    </div>
+
+                    <div class="input-field">
+                        <input type="email" placeholder="Email Address" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+        
+                <div class="input-box">
+                    <div class="input-field">
+                        <input type="number" placeholder="Mobile Number" required>
+                        <span class="focus"></span>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" name="email_subject" placeholder="Email Subject" required>
+                        <span class="focus"></span>
+                    </div>
+                </div>
+        
+                <div class="text-area-field">
+                    <textarea name="message" id="message" rows="10" placeholder="Type your message here..." required></textarea>
+                    <span class="focus"></span>
+                </div>
+        
+                <button class="custom-button" type="submit">Send message!</button>  
+            </form>
+        
+            <div id="messageStatus"></div>
+        </section>
+        
+
+                                                <!-- FOOTER SECTION -->
         <footer class="footer">
 
-
-            <div class="section-container footer-container">
-
-
-                <div class="footer-col">
-                    <h3> SoftWay<span>.</span></h3>
-                    <p>
-                        Explore your suitable and dream places around the world. Here you
-                        can find your right destination.
-                    </p>
-                </div>
-
-                <div class="footer-col">
-                    <h4>Support</h4>
-                    <p>FAQs</p>
-                    <p>Terms & Conditions</p>
-                    <p>Privacy Policy</p>
-                    <p>Contact Us</p>
-                </div>
-
-                <div class="footer-col">
-                    <h4> Address </h4>
-                    <p>
-                        <span>Address:</span> 280 Tshielo Street, Gauteng, Pretoria, 0183,
-                        South Africa
-                    </p>
-                    <p><span>Email:</span> contact@codsoft.in </p>
-                    <p><span>Phone:</span> +27 68 2098 621</p>
-                </div>
-
+            <div class="footer-text">
+                <p>&copy; 2023 by Tshireletso P. Tshielo - All Rights Reserved!</p>
             </div>
 
-            <div class="footer-bar">
-                Copyright © 2024 Tshireletso P. Tshielo. All rights reserved.
+            <div class="footer-iconTop">
+                <a href="#" title="home"> <i class="bx bx-up-arrow-alt"></i> </a>
             </div>
-        
+
         </footer>
+
+        <script src="./scrollreveal.js"></script>
+        <script src="./typed.umd.js"></script>
+        <script src="script.js"></script>
+        
     </body>
 </html>

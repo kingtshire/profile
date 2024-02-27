@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "boxicons": "^2.1.4",
+    "fontawesome": "^5.6.3",
+    "scrollreveal": "^4.0.9",
+    "typed.js": "^2.1.0"
+  }
+}
