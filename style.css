@@ -311,7 +311,6 @@ span.web-dev {
 .portfolio-gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
     gap: 2.5rem;
 }
 
@@ -324,6 +323,7 @@ span.web-dev {
 }
 
 .port-box img {
+    height: 100%;
     width: 100%;
     transition: .5s ease;
 }
