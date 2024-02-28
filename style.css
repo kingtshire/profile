@@ -548,6 +548,18 @@ span.web-dev {
     
 }
 
+@media only screen and (max-width: 880px) {
+    .portfolio-gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact form .input-box .input-field {
+        width: 100%;
+    }
+}
+
+
 @media only screen and (max-width: 768px) {
     .header {
         padding: 1rem 3%;
@@ -655,6 +667,15 @@ span.web-dev {
     .about-img {
         width: 40%;
         height: 40%;
+    }
+    
+    .portfolio-gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact form .input-box .input-field {
+        width: 100%;
     }
     
 
