@@ -354,11 +354,11 @@ span.web-dev {
 }
 
 .port-content h4 {
-    font-size: 3rem;
+    font-size: 2.2rem;
 }
 
 .port-content p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin: .3rem 0 1rem;
 }
 
@@ -656,12 +656,12 @@ span.web-dev {
     }
 
     .port-content a {
-        width: 3rem; 
-        height: 3rem; 
+        width: 5rem; 
+        height: 5rem; 
     }
 
     .port-content a i {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .about-img {
