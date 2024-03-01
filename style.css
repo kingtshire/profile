@@ -492,7 +492,7 @@ span.web-dev {
 
 
 /* Media Queries for Responsive Design */
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1299px) {
     .header {
         padding: 1rem 5%;
     }
@@ -681,7 +681,14 @@ span.web-dev {
 
 }
 
+
 @media only screen and (max-width: 601px) {
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    
     .home-content h1 {
         font-size: 3rem;
         padding-top: 100px;
@@ -724,7 +731,41 @@ span.web-dev {
     }
 }
 
+
 @media only screen and (max-width: 410px) {
+
+    .logo {
+        font-size: 1.4rem;
+    }
+
+    .heading{
+        font-size: 2.8rem;
+    }
+
+    .about-content h2 {
+        font-size: 2.8rem;
+    }
+    
+    .home-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+
+    #menu-icon {
+        font-size: 2.4rem;
+    }
+
+    .about-img {
+        width: 70%;
+        height: 70%;
+    }
+    
     .home {
         justify-content: center;
     }
@@ -736,4 +777,36 @@ span.web-dev {
         text-align: center;
     }
 
+    .home-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.2rem;
+    }
+
+    .skills-column .title {
+        padding-top: 1rem;
+        font-size: 1.8rem;
+    }
+
+    .skills-content .progress .bar {
+        height: 1.8rem;
+    }
+    
+    .skills-content .progress h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-iconTop a {
+        font-size: 2rem;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+
+    .custom-button {
+        font-size: 1rem;
+    }
 }
